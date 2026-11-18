@@ -1,0 +1,14 @@
+.git/
+.gitignore
+vendor/
+.env
+.env.*
+*.log
+*.tmp
+*.bak
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+composer.phar
+START.bat

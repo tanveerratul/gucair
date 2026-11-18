@@ -1,0 +1,113 @@
+{
+  "_note": "Optional development sample data for GUCAIR. This file is NOT loaded by the website. Import it only for local testing with database/import_sample_data.php. Passwords are already hashed with PHP password_hash(); see README.md for the sample login password.",
+  "database": "gucair_database",
+  "universities": [
+    {
+      "_id": { "$oid": "6afdaf51df305f3a6f0bd250" },
+      "name": "Northbridge University",
+      "country": "Canada",
+      "email": "registrar@northbridge.edu",
+      "website": "https://northbridge.edu",
+      "contact_person": "Dr. Amelia Chen",
+      "password_hash": "$2y$12$igNM0s0iF/W8wZNcvv0zRO99u.svKcI0tad5nqr46FhFaGSGOIdBK",
+      "created_at": { "$date": "2026-01-12T09:00:00Z" }
+    },
+    {
+      "_id": { "$oid": "6afdaf51df305f3a6f0bd251" },
+      "name": "Riverton Institute of Technology",
+      "country": "Australia",
+      "email": "admissions@riverton.edu.au",
+      "website": "https://riverton.edu.au",
+      "contact_person": "Prof. Noah Williams",
+      "password_hash": "$2y$12$wNqYafmuk0WTOHNiLP9m4O.LBuq0Y7PyMwpTIp1eOvR23mVHJas2e",
+      "created_at": { "$date": "2026-01-18T11:30:00Z" }
+    },
+    {
+      "_id": { "$oid": "6afdaf51df305f3a6f0bd252" },
+      "name": "Solaris University of Applied Sciences",
+      "country": "Kenya",
+      "email": "registry@solaris.ac.ke",
+      "website": "https://solaris.ac.ke",
+      "contact_person": "Dr. Amina Okafor",
+      "password_hash": "$2y$12$6lAomeJn90eNamg2t.61nOSaiFBrndBGL0ayJCfzETUvzRrngILFS",
+      "created_at": { "$date": "2026-02-01T08:15:00Z" }
+    }
+  ],
+  "assessments": [
+    {
+      "_id": { "$oid": "6afdaffbea70cf335e0ebf70" },
+      "university_id": { "$oid": "6afdaf51df305f3a6f0bd250" },
+      "assessment_year": 2026,
+      "score": 3.6,
+      "level": "Intermediate",
+      "categories": {
+        "ai_education": 4,
+        "ai_research": 4,
+        "ai_infrastructure": 3,
+        "faculty_knowledge": 4,
+        "ai_policy": 3
+      },
+      "created_at": { "$date": "2026-02-10T10:00:00Z" }
+    },
+    {
+      "_id": { "$oid": "6afdaffbea70cf335e0ebf71" },
+      "university_id": { "$oid": "6afdaf51df305f3a6f0bd250" },
+      "assessment_year": 2025,
+      "score": 2.6,
+      "level": "Developing",
+      "categories": {
+        "ai_education": 3,
+        "ai_research": 3,
+        "ai_infrastructure": 2,
+        "faculty_knowledge": 3,
+        "ai_policy": 2
+      },
+      "created_at": { "$date": "2025-02-14T10:00:00Z" }
+    },
+    {
+      "_id": { "$oid": "6afdaffbea70cf335e0ebf72" },
+      "university_id": { "$oid": "6afdaf51df305f3a6f0bd251" },
+      "assessment_year": 2026,
+      "score": 2.0,
+      "level": "Beginner",
+      "categories": {
+        "ai_education": 2,
+        "ai_research": 3,
+        "ai_infrastructure": 2,
+        "faculty_knowledge": 2,
+        "ai_policy": 1
+      },
+      "created_at": { "$date": "2026-03-02T12:00:00Z" }
+    },
+    {
+      "_id": { "$oid": "6afdaffbea70cf335e0ebf73" },
+      "university_id": { "$oid": "6afdaf51df305f3a6f0bd251" },
+      "assessment_year": 2025,
+      "score": 2.6,
+      "level": "Developing",
+      "categories": {
+        "ai_education": 3,
+        "ai_research": 3,
+        "ai_infrastructure": 3,
+        "faculty_knowledge": 2,
+        "ai_policy": 2
+      },
+      "created_at": { "$date": "2025-03-05T12:00:00Z" }
+    },
+    {
+      "_id": { "$oid": "6afdaffbea70cf335e0ebf74" },
+      "university_id": { "$oid": "6afdaf51df305f3a6f0bd252" },
+      "assessment_year": 2026,
+      "score": 4.4,
+      "level": "Advanced",
+      "categories": {
+        "ai_education": 5,
+        "ai_research": 4,
+        "ai_infrastructure": 4,
+        "faculty_knowledge": 5,
+        "ai_policy": 4
+      },
+      "created_at": { "$date": "2026-04-20T09:30:00Z" }
+    }
+  ]
+}

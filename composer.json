@@ -1,0 +1,13 @@
+{
+    "name": "gucair/gucair",
+    "description": "GUCAIR - Global University Consortium of AI Readiness (Web Engineering Lab)",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "ext-mongodb": "*",
+        "mongodb/mongodb": "^2.0"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
